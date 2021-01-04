@@ -34,7 +34,7 @@ $(function(){
 		setTimeout(function(){ 
 
 		$.ajax({
-			url : "https://boo3.sakorncable.com/index.php/mobile_app/getDataCustomerByCar",
+			url : "https://praruang.sakorncable.com/index.php/mobile_app/getDataCustomerByCar",
 			type : "POST",
 			data : data,
 			contentType : false,

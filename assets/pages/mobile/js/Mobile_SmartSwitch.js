@@ -10,7 +10,7 @@ $(function(){
         data.append('DeviceName', Device); 
 
         $.ajax({
-        	url:"https://boo3.sakorncable.com/index.php/Mobile_app/getDeviceStatus",
+        	url:"https://praruang.sakorncable.com/index.php/Mobile_app/getDeviceStatus",
         	type:"POST",
         	data:data,
         	contentType : false,
@@ -72,7 +72,7 @@ $(function(){
  
 
 	        $.ajax({
-	        	url:"https://boo3.sakorncable.com/index.php/Devices/IOTDevice",
+	        	url:"https://praruang.sakorncable.com/index.php/Devices/IOTDevice",
 	        	type:"POST",
 	        	data:data2,
 	        	contentType : false,
@@ -94,7 +94,7 @@ $(function(){
 				        data.append('DeviceName', Device); 
 
 				        $.ajax({
-				        	url:"https://boo3.sakorncable.com/index.php/Mobile_app/getDeviceStatus",
+				        	url:"https://praruang.sakorncable.com/index.php/Mobile_app/getDeviceStatus",
 				        	type:"POST",
 				        	data:data,
 				        	contentType : false,

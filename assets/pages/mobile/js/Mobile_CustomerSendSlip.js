@@ -14,7 +14,7 @@ $(function(){
         data.append('CustomerID', CustomerID); 
 
         $.ajax({
-        	url:"https://boo3.sakorncable.com/index.php/mobile_app/getDataBlanace",
+        	url:"https://praruang.sakorncable.com/index.php/mobile_app/getDataBlanace",
         	type:"POST",
         	data:data,
         	contentType : false,
@@ -67,7 +67,7 @@ $(function(){
 		setTimeout(function(){ 
 
         $.ajax({
-        	url:"https://boo3.sakorncable.com/index.php/mobile_app/SendDataSlipToNotify",
+        	url:"https://praruang.sakorncable.com/index.php/mobile_app/SendDataSlipToNotify",
         	type:"POST",
         	data:data,
         	contentType : false,

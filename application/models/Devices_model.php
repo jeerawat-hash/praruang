@@ -15,7 +15,7 @@ class Devices_model extends CI_Model
       ,[Is_Open]
       ,[MQTTChannel]
       ,[Description]
-  FROM [Sakorn_Bangboo].[dbo].[SmartSwitch] where DeviceName = '".$DeviceName."' ")->result();
+  FROM [PraruangProject].[dbo].[SmartSwitch] where DeviceName = '".$DeviceName."' ")->result();
       
 
     }

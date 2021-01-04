@@ -10,8 +10,8 @@ class Mobile_model extends CI_Model
      $this->mssql = $this->load->database("mssql",true);
 
       return $this->mssql->query("SELECT b.CustomerName,'ตึก '+SUBSTRING(b.Room,2,2) + ' ' +'ห้อง '+SUBSTRING(b.Room,5,2) as AddressLocal,a.CARCODE,a.CARBRAND,a.CARCOLOR,a.CARTYPE,a.COUNTRY,a.CONTACT 
-  FROM [Sakorn_Bangboo].[dbo].[CustomerCarInfo] a 
-  join Sakorn_Bangboo.dbo.Customer b on a.CUST = b.CustomerID 
+  FROM [PraruangProject].[dbo].[CustomerCarInfo] a 
+  join PraruangProject.dbo.Customer b on a.CUST = b.CustomerID 
   where a.CARCODE like '".$CarCode."%'  ")->result();
 
 
@@ -23,7 +23,7 @@ class Mobile_model extends CI_Model
      $this->mssql = $this->load->database("mssql",true);
 
 
-     return $this->mssql->query(" select CustomerID,TitleName+' '+CustomerName+' '+NoHome as CustomerINFO,ProjectCode from Sakorn_Bangboo.dbo.Customer where CustomerID = '".$CustomerID."'  ")->result();
+     return $this->mssql->query(" select CustomerID,TitleName+' '+CustomerName+' '+NoHome as CustomerINFO,ProjectCode from PraruangProject.dbo.Customer where CustomerID = '".$CustomerID."'  ")->result();
 
 
   }
@@ -33,15 +33,15 @@ class Mobile_model extends CI_Model
         $this->mssql = $this->load->database("mssql",true);
 /*
         return $this->mssql->query(" 
- select CustomerID,CustomerName,ISNULL( convert(varchar(20) ,sum(a.AMOUNT)) ,'0') as AmountTotal from [Sakorn_Bangboo].[dbo].[CustomerAmount_LOG] a
- right outer join Sakorn_Bangboo.dbo.Customer b on a.CUST = b.CustomerID
+ select CustomerID,CustomerName,ISNULL( convert(varchar(20) ,sum(a.AMOUNT)) ,'0') as AmountTotal from [PraruangProject].[dbo].[CustomerAmount_LOG] a
+ right outer join PraruangProject.dbo.Customer b on a.CUST = b.CustomerID
    where b.CustomerID = '".$CUST."'  and a.ProjectCode = '".$ProjectCode."'
    group by CustomerID,CustomerName ")->result();
 */
-         return $this->mssql->query(" select CustomerID,CustomerName,(select ISNULL( convert(varchar(20) ,sum(AMOUNT)) ,'0') as AmountTotal from Sakorn_Bangboo.dbo.Customer a
-   join Sakorn_Bangboo.dbo.CustomerAmount_LOG b on a.CustomerID = b.CUST
+         return $this->mssql->query(" select CustomerID,CustomerName,(select ISNULL( convert(varchar(20) ,sum(AMOUNT)) ,'0') as AmountTotal from PraruangProject.dbo.Customer a
+   join PraruangProject.dbo.CustomerAmount_LOG b on a.CustomerID = b.CUST
     where a.CustomerID = '".$CUST."'   ) as AmountTotal 
-  from Sakorn_Bangboo.dbo.Customer a  where a.CustomerID = '".$CUST."'  ")->result();
+  from PraruangProject.dbo.Customer a  where a.CustomerID = '".$CUST."'  ")->result();
 
 
   }
@@ -51,13 +51,13 @@ class Mobile_model extends CI_Model
 
         $this->mssql = $this->load->database("mssql",true);
         /*
-        return $this->mssql->query("select CustomerID,CustomerName,a.AMOUNT as AmountTotal,c.Description,a.DATE from [Sakorn_Bangboo].[dbo].[CustomerAmount_LOG] a
- right outer join Sakorn_Bangboo.dbo.Customer b on a.CUST = b.CustomerID  
- join [Sakorn_Bangboo].[dbo].[CustomerAmount_CodeType] c on a.CODE = c.CODE
+        return $this->mssql->query("select CustomerID,CustomerName,a.AMOUNT as AmountTotal,c.Description,a.DATE from [PraruangProject].[dbo].[CustomerAmount_LOG] a
+ right outer join PraruangProject.dbo.Customer b on a.CUST = b.CustomerID  
+ join [PraruangProject].[dbo].[CustomerAmount_CodeType] c on a.CODE = c.CODE
  where b.CustomerID = '".$CUST."' and a.ProjectCode = '".$ProjectCode."' order by DATE asc ")->result();
   */
-    return $this->mssql->query("  select CustomerID,CustomerName,a.AMOUNT as AmountTotal, a.infocode as Description,a.DATE from [Sakorn_Bangboo].[dbo].[CustomerAmount_LOG] a
- right outer join Sakorn_Bangboo.dbo.Customer b on a.CUST = b.CustomerID   
+    return $this->mssql->query("  select CustomerID,CustomerName,a.AMOUNT as AmountTotal, a.infocode as Description,a.DATE from [PraruangProject].[dbo].[CustomerAmount_LOG] a
+ right outer join PraruangProject.dbo.Customer b on a.CUST = b.CustomerID   
  where b.CustomerID = '".$CUST."'  order by DATE asc  ")->result();
 
 
@@ -88,7 +88,7 @@ class Mobile_model extends CI_Model
   {
 
      $this->mssql = $this->load->database("mssql",true);
-      $checkCustomer = $this->mssql->query(" delete from [Sakorn_Bangboo].[dbo].[Customer]  ");
+      $checkCustomer = $this->mssql->query(" delete from [PraruangProject].[dbo].[Customer]  ");
 
 
   }
@@ -99,7 +99,7 @@ class Mobile_model extends CI_Model
  
       $this->mssql->query(" 
 
-          INSERT INTO [Sakorn_Bangboo].[dbo].[Customer]
+          INSERT INTO [PraruangProject].[dbo].[Customer]
            ([CustomerID]
            ,[TitleName]
            ,[CustomerName]
@@ -121,7 +121,7 @@ class Mobile_model extends CI_Model
 
      $this->mssql = $this->load->database("mssql",true);
 
-     $this->mssql->query(" INSERT INTO [Sakorn_Bangboo].[dbo].[CustomerCarInfo]
+     $this->mssql->query(" INSERT INTO [PraruangProject].[dbo].[CustomerCarInfo]
            ([CUST]
            ,[CARCODE]
            ,[COUNTRY]
@@ -146,7 +146,7 @@ class Mobile_model extends CI_Model
 
      $this->mssql = $this->load->database("mssql",true);
 
-     $this->mssql->query(" delete from [Sakorn_Bangboo].[dbo].[CustomerCarInfo]  ");
+     $this->mssql->query(" delete from [PraruangProject].[dbo].[CustomerCarInfo]  ");
  
   }
 
@@ -156,7 +156,7 @@ class Mobile_model extends CI_Model
 
      $this->mssql = $this->load->database("mssql",true);
 
-     $this->mssql->query("INSERT INTO [Sakorn_Bangboo].[dbo].[CustomerAmount_LOG]
+     $this->mssql->query("INSERT INTO [PraruangProject].[dbo].[CustomerAmount_LOG]
            ([CUST]
            ,[DATE]
            ,[CODE]
@@ -177,7 +177,7 @@ class Mobile_model extends CI_Model
 
      $this->mssql = $this->load->database("mssql",true);
 
-     $this->mssql->query(" delete from [Sakorn_Bangboo].[dbo].[CustomerAmount_LOG]  ");
+     $this->mssql->query(" delete from [PraruangProject].[dbo].[CustomerAmount_LOG]  ");
  
   }
 
@@ -186,7 +186,7 @@ class Mobile_model extends CI_Model
 
      $this->mssql = $this->load->database("mssql",true);
 
-     $this->mssql->query(" INSERT INTO [Sakorn_Bangboo].[dbo].[CustomerPay_LOG]
+     $this->mssql->query(" INSERT INTO [PraruangProject].[dbo].[CustomerPay_LOG]
            ([CUST]
            ,[RECEIPT]
            ,[PAYTYPE_ID]
@@ -211,7 +211,7 @@ class Mobile_model extends CI_Model
 
      $this->mssql = $this->load->database("mssql",true);
 
-     $this->mssql->query(" delete from [Sakorn_Bangboo].[dbo].[CustomerPay_LOG]  ");
+     $this->mssql->query(" delete from [PraruangProject].[dbo].[CustomerPay_LOG]  ");
  
   }
 
@@ -221,7 +221,7 @@ class Mobile_model extends CI_Model
      $this->mssql = $this->load->database("mssql",true);
 
      return $this->mssql->query("  select sum(list) as AMOUNT from (
- select isnull(sum(a.AMOUNT),0) as List,a.InfoCode as Description from Sakorn_Bangboo.dbo.CustomerAmount_LOG a 
+ select isnull(sum(a.AMOUNT),0) as List,a.InfoCode as Description from PraruangProject.dbo.CustomerAmount_LOG a 
  group by a.Code,a.InfoCode  
   )a  ")->result();
  
@@ -232,7 +232,7 @@ class Mobile_model extends CI_Model
      $this->mssql = $this->load->database("mssql",true);
 
      return $this->mssql->query(" 
-  select isnull(sum(a.AMOUNT),0) as List,a.InfoCode as Description from Sakorn_Bangboo.dbo.CustomerAmount_LOG a 
+  select isnull(sum(a.AMOUNT),0) as List,a.InfoCode as Description from PraruangProject.dbo.CustomerAmount_LOG a 
  group by a.Code,a.InfoCode order by List Desc")->result();
  
   }
@@ -243,7 +243,7 @@ class Mobile_model extends CI_Model
 
      return $this->mssql->query(" 
  select isnull(sum(a.AMOUNT),0) as List,(case when a.InfoCode = '' then 'อื่นๆ' else a.InfoCode end) as  Description 
- from Sakorn_Bangboo.dbo.CustomerPay_LOG a 
+ from PraruangProject.dbo.CustomerPay_LOG a 
   group by a.Code,a.InfoCode  ")->result();
  
   }
@@ -254,8 +254,8 @@ class Mobile_model extends CI_Model
      $this->mssql = $this->load->database("mssql",true);
 
      return $this->mssql->query("  select Description,Count(RECEIPT) as Receipt,Sum(RECEIPTList) as List,sum(Amount) as Amount from (
- select RECEIPT,b.Description,count(RECEIPT) as RECEIPTList,sum(a.Amount) as Amount from Sakorn_Bangboo.dbo.CustomerPay_LOG a 
- join Sakorn_Bangboo.dbo.CustomerPay_Type b on a.PAYTYPE_ID = b.ID  group by RECEIPT,b.Description
+ select RECEIPT,b.Description,count(RECEIPT) as RECEIPTList,sum(a.Amount) as Amount from PraruangProject.dbo.CustomerPay_LOG a 
+ join PraruangProject.dbo.CustomerPay_Type b on a.PAYTYPE_ID = b.ID  group by RECEIPT,b.Description
  )a group by Description ")->result();
  
   }

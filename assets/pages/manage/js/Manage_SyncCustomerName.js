@@ -32,7 +32,7 @@ $(function(){
 
         
         $.ajax({
-                url: "https://boo3.sakorncable.com/index.php/management/createDataCustomerNameFromXlsx",
+                url: "https://praruang.sakorncable.com/index.php/management/createDataCustomerNameFromXlsx",
                 type: "POST",
                 data: data,
                 contentType: false,

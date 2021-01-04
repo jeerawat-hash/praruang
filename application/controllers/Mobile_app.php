@@ -18,7 +18,7 @@ class Mobile_app extends CI_Controller
 	public function index()
 	{		
 
-			$header['page_name'] = 'ลูกบ้านอาคารชุดเอื้ออาทรบางบ่อ';
+			$header['page_name'] = 'ลูกบ้านอาคารชุดเอื้ออาทรพรพระร่วงประสิทธิ';
 			$header['page_focus'] = 'home';
 			 
 
@@ -186,19 +186,19 @@ class Mobile_app extends CI_Controller
 				
 			$file = $_POST["CustomerID"].uniqid();
 
-			move_uploaded_file($_FILES["Slipfile"]["tmp_name"], "/home/admin/web/boo3.sakorncable.com/public_html/upload/temp/".$file.".jpg");
+			move_uploaded_file($_FILES["Slipfile"]["tmp_name"], "/home/admin/web/praruang.sakorncable.com/public_html/upload/temp/".$file.".jpg");
  
 
 			$Member = $this->Mobile_model->getDataBlanace($_POST["CustomerID"]);				
 
 	        $UserMessage = $Member[0]->CustomerName." ทำการส่งภาพ";
 
-	        send_notify_message(" [ ".$UserMessage." รหัส ".$_POST["CustomerID"]." ]","https://boo3.sakorncable.com/upload/temp/".$file.".jpg");
+	        send_notify_message(" [ ".$UserMessage." รหัส ".$_POST["CustomerID"]." ]","https://praruang.sakorncable.com/upload/temp/".$file.".jpg");
 
 	       	 
 	        echo "1";
 
-	        //shell_exec(" rm  /home/admin/web/boo3.sakorncable.com/public_html/upload/temp/".$file.".jpg");
+	        //shell_exec(" rm  /home/admin/web/praruang.sakorncable.com/public_html/upload/temp/".$file.".jpg");
 
 		}else{
 
@@ -233,7 +233,7 @@ class Mobile_app extends CI_Controller
  		
  		$line_api = 'https://notify-api.line.me/api/notify';
  		//$access_token = 'เปลี่ยนด้วย';
-    	$access_token = 'kBvMKfPGoL6NhAbknMyfcukN1l6snFaWOt1ZDfVahJ3';//eWEGn8hijvdIqDQCdBRUffGcMUQ3UIp7yuyQjde1g3f  JOID9jUQBwuPZ17kE9BXLbnBnlsw73WKvtL16gLp8HS
+    	$access_token = '0k8f1iDkdjVj1rt1FgpuTzkmjb1urioiSgpWnLk6ySv';//eWEGn8hijvdIqDQCdBRUffGcMUQ3UIp7yuyQjde1g3f  JOID9jUQBwuPZ17kE9BXLbnBnlsw73WKvtL16gLp8HS
 
 	    $image_thumbnail_url = $image_url;  // max size 240x240px JPEG
 	    $image_fullsize_url = $image_url; //max size 1024x1024px JPEG

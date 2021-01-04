@@ -92,7 +92,7 @@
                 <h2>เมนูหลัก</h2>
             </div>
 
-
+ 
 
             
             <div class="row clearfix">
@@ -140,7 +140,7 @@
                             <i class="material-icons">equalizer</i>
                         </div>
                         <div class="content">
-                            <div class="text">ข้อบังคับ บ้านเอื้ออาทรบางบ่อ 3 </div>
+                            <div class="text">ข้อบังคับ บ้านเอื้ออาทร พรพระร่วงประสิทธิ </div>
                         </div>
                     </div>
 
@@ -152,7 +152,7 @@
                             <i class="material-icons">equalizer</i>
                         </div>
                         <div class="content">
-                            <div class="text">ระเบียบ บ้านเอื้ออาทรบางบ่อ 3 </div>
+                            <div class="text">ระเบียบ บ้านเอื้ออาทร พรพระร่วงประสิทธิ </div>
                         </div>
                     </div>
 
@@ -309,13 +309,13 @@
                                 <div class="col-md-4">
                                     <div class="form-group">
                                           
-                                        <label>ธนาคารธนชาต</label> <br>
+                                        <label>-</label> <br>
                                        
 
-                                <label><font color="red">เลขที่ </font>: </label><input type="text" readonly style="border: none;" value="6866089515" name="BankCode" id="BankCode">
+                                <label><font color="red">เลขที่ </font>: </label><input type="text" readonly style="border: none;" value="-" name="BankCode" id="BankCode">
                                              
                                          <br>
-                                        <label>ชื่อบัญชี : นิติบุคคลอาคารชุด บ้านเอื้ออาทรบางบ่อ 3 </label>
+                                        <label>ชื่อบัญชี : - </label>
                                         <br>
                                         <button id="CopyBankCode" onclick="CopyFunction()" class="btn btn-lg btn-info waves-effect" >กดที่นี่เพื่อคัดลอกหมายเลขบัญชี</button>
                                         
@@ -502,7 +502,7 @@
                                      responsive-wrapper-wxh-572x612"
                                      style="-webkit-overflow-scrolling: touch; overflow: auto;">
 
-                                    <iframe  src="https://boo3.sakorncable.com/upload/pack1file/File1.pdf"> 
+                                    <iframe  src="https://praruang.sakorncable.com/upload/pack1file/File1.pdf"> 
                                       <p style="font-size: 110%;"><em><strong>ERROR: </strong>  
                                 An &#105;frame should be displayed here but your browser version does not support &#105;frames. </em>Please update your browser to its most recent version and try again.</p>
                                     </iframe>
@@ -511,7 +511,7 @@
                                 </div> -->
                                 <div class="form-group">
 
-                                    <a class="btn btn-lg btn-info waves-effect" href="https://boo3.sakorncable.com/upload/pack1file/File1.pdf">ดาว์โหลด/เปิดเต็มจอ</a>
+                                    <a class="btn btn-lg btn-info waves-effect" href="https://praruang.sakorncable.com/upload/pack1file/File1.pdf">ดาว์โหลด/เปิดเต็มจอ</a>
 
                                 </div>
 
@@ -556,7 +556,7 @@
                                      responsive-wrapper-wxh-572x612"
                                      style="-webkit-overflow-scrolling: touch; overflow: auto;">
 
-                                    <iframe  src="https://boo3.sakorncable.com/upload/pack1file/File2.pdf"> 
+                                    <iframe  src="https://praruang.sakorncable.com/upload/pack1file/File2.pdf"> 
                                       <p style="font-size: 110%;"><em><strong>ERROR: </strong>  
                                 An &#105;frame should be displayed here but your browser version does not support &#105;frames. </em>Please update your browser to its most recent version and try again.</p>
                                     </iframe>
@@ -565,7 +565,7 @@
                                 </div> -->
                                 <div class="form-group">
 
-                                    <a class="btn btn-lg btn-info waves-effect" href="https://boo3.sakorncable.com/upload/pack1file/File2.pdf">ดาว์โหลด/เปิดเต็มจอ</a>
+                                    <a class="btn btn-lg btn-info waves-effect" href="https://praruang.sakorncable.com/upload/pack1file/File2.pdf">ดาว์โหลด/เปิดเต็มจอ</a>
 
                                 </div>
 
@@ -711,7 +711,7 @@
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h4 class="modal-title" id="defaultModalLabel">ยืนยันตัวตนด้วยหมายเลขห้องบ้านเอื้ออาทรบางบ่อ 3 <font color="red">(บ้านเลขที่-หมายเลขห้อง)</font></h4>
+                            <h4 class="modal-title" id="defaultModalLabel">ยืนยันตัวตนด้วยหมายเลขห้องบ้านเอื้ออาทร พรพระร่วงประสิทธิ <font color="red">(บ้านเลขที่/หมายเลขห้อง)</font></h4>
                         </div>
                         <div class="modal-body">
 
@@ -719,7 +719,7 @@
                             <div class="form-group form-float">
                                     <div class="form-line">
                                         <input type="text" value="" class="form-control" id="CustomerID" name="CustomerID" required>
-                                        <label class="form-label">บ้านเลขที่ 000-00 </label>
+                                        <label class="form-label">บ้านเลขที่ 000/00 </label>
                                     </div>
                             </div>
  
@@ -747,14 +747,14 @@
 
 
         
-        <script src="https://boo3.sakorncable.com/assets/pages/mobile/js/mobile_home.js?v=1002"></script>
-        <script src="https://boo3.sakorncable.com/assets/pages/mobile/js/Mobile_CCTV.js?v=1002"></script>
-        <script src="https://boo3.sakorncable.com/assets/pages/mobile/js/Mobile_CustomerCheckblanace.js?v=1002"></script>
-        <script src="https://boo3.sakorncable.com/assets/pages/mobile/js/Mobile_CustomerSendSlip.js?v=1002"></script>
-        <script src="https://boo3.sakorncable.com/assets/pages/mobile/js/Mobile_CustomerGetDataCarModal.js?v=1002"></script>
-        <script src="https://boo3.sakorncable.com/assets/pages/mobile/js/Mobile_SmartSwitch.js?v=1002"></script>
-        <script src="https://boo3.sakorncable.com/assets/pages/mobile/js/Mobile_SmartSecurity.js?v=1002"></script>
-        <script src="https://boo3.sakorncable.com/assets/pages/mobile/js/Mobile_SmartWM.js?v=1002"></script>
+        <script src="https://praruang.sakorncable.com/assets/pages/mobile/js/mobile_home.js?v=1002"></script>
+        <script src="https://praruang.sakorncable.com/assets/pages/mobile/js/Mobile_CCTV.js?v=1002"></script>
+        <script src="https://praruang.sakorncable.com/assets/pages/mobile/js/Mobile_CustomerCheckblanace.js?v=1002"></script>
+        <script src="https://praruang.sakorncable.com/assets/pages/mobile/js/Mobile_CustomerSendSlip.js?v=1002"></script>
+        <script src="https://praruang.sakorncable.com/assets/pages/mobile/js/Mobile_CustomerGetDataCarModal.js?v=1002"></script>
+        <script src="https://praruang.sakorncable.com/assets/pages/mobile/js/Mobile_SmartSwitch.js?v=1002"></script>
+        <script src="https://praruang.sakorncable.com/assets/pages/mobile/js/Mobile_SmartSecurity.js?v=1002"></script>
+        <script src="https://praruang.sakorncable.com/assets/pages/mobile/js/Mobile_SmartWM.js?v=1002"></script>
 
 
 
@@ -810,7 +810,7 @@ function CopyFunction() {
             if (idleTime > timeOut) {
                 $("#PreviewTVplayer").html("");
                 //alert("หมดเวลาการเชื่อมต่อกำลังรีโหลดโปรแกรม....");
-                top.location.href = 'https://boo3.sakorncable.com/';
+                top.location.href = 'https://praruang.sakorncable.com/';
             }
         }
         

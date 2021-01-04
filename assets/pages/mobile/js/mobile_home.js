@@ -13,7 +13,7 @@ $(function(){
 	  if (diff > 200){
 
 	    //alert("Debugger detected!");
-	    //window.location="https://boo3.sakorncable.com/index.php/mobile_app";
+	    //window.location="https://praruang.sakorncable.com/index.php/mobile_app";
 	    debugger;
 
 	  }
@@ -57,7 +57,7 @@ $(function(){
 		setTimeout(function(){
 
 
-			$.post("https://boo3.sakorncable.com/index.php/mobile_app/login",{CustomerID : Customer}
+			$.post("https://praruang.sakorncable.com/index.php/mobile_app/login",{CustomerID : Customer}
 			,function(data,status){
 
 

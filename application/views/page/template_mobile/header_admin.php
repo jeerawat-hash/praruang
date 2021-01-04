@@ -22,50 +22,50 @@
 <head>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-    <title>บ้านเอื้ออาทรบางบ่อ 3 สาครเคเบิล</title>
+    <title>บ้านเอื้ออาทร พรพระร่วงประสิทธิ</title>
     <!-- Favicon-->
-    <link rel="icon" href="https://boo3.sakorncable.com/assets/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="https://praruang.sakorncable.com/assets/favicon.ico" type="image/x-icon">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,cyrillic-ext" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css">
 
     <!-- Bootstrap Core Css -->
-    <link href="https://boo3.sakorncable.com/assets/plugins/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="https://praruang.sakorncable.com/assets/plugins/bootstrap/css/bootstrap.css" rel="stylesheet">
 
     <!-- Waves Effect Css -->
-    <link href="https://boo3.sakorncable.com/assets/plugins/node-waves/waves.css" rel="stylesheet" />
+    <link href="https://praruang.sakorncable.com/assets/plugins/node-waves/waves.css" rel="stylesheet" />
 
     <!-- Animation Css -->
-    <link href="https://boo3.sakorncable.com/assets/plugins/animate-css/animate.css" rel="stylesheet" />
+    <link href="https://praruang.sakorncable.com/assets/plugins/animate-css/animate.css" rel="stylesheet" />
 
     <!-- Custom Css -->
-    <link href="https://boo3.sakorncable.com/assets/css/style.css" rel="stylesheet">
+    <link href="https://praruang.sakorncable.com/assets/css/style.css" rel="stylesheet">
 
     <!-- AdminBSB Themes. You can choose a theme from css/themes instead of get all themes -->
-    <link href="https://boo3.sakorncable.com/assets/css/themes/all-themes.css" rel="stylesheet" />
+    <link href="https://praruang.sakorncable.com/assets/css/themes/all-themes.css" rel="stylesheet" />
 
         <!-- Jquery Core Js -->
-    <script src="https://boo3.sakorncable.com/assets/plugins/jquery/jquery.min.js"></script>
+    <script src="https://praruang.sakorncable.com/assets/plugins/jquery/jquery.min.js"></script>
 
     <!-- Bootstrap Core Js -->
-    <script src="https://boo3.sakorncable.com/assets/plugins/bootstrap/js/bootstrap.js"></script>
+    <script src="https://praruang.sakorncable.com/assets/plugins/bootstrap/js/bootstrap.js"></script>
 
     <!-- Select Plugin Js -->
-    <script src="https://boo3.sakorncable.com/assets/plugins/bootstrap-select/js/bootstrap-select.js"></script>
+    <script src="https://praruang.sakorncable.com/assets/plugins/bootstrap-select/js/bootstrap-select.js"></script>
 
     <!-- Slimscroll Plugin Js -->
-    <script src="https://boo3.sakorncable.com/assets/plugins/jquery-slimscroll/jquery.slimscroll.js"></script>
+    <script src="https://praruang.sakorncable.com/assets/plugins/jquery-slimscroll/jquery.slimscroll.js"></script>
 
     <!-- Waves Effect Plugin Js -->
-    <script src="https://boo3.sakorncable.com/assets/plugins/node-waves/waves.js"></script>
+    <script src="https://praruang.sakorncable.com/assets/plugins/node-waves/waves.js"></script>
 
     <!-- Custom Js -->
-    <script src="https://boo3.sakorncable.com/assets/js/admin.js"></script>
+    <script src="https://praruang.sakorncable.com/assets/js/admin.js"></script>
      
     <!-- Demo Js -->
-    <script src="https://boo3.sakorncable.com/assets/js/demo.js"></script>
-    <script src="https://boo3.sakorncable.com/assets/clappr/dist/clappr.js"></script>
+    <script src="https://praruang.sakorncable.com/assets/js/demo.js"></script>
+    <script src="https://praruang.sakorncable.com/assets/clappr/dist/clappr.js"></script>
 
 
 
@@ -119,7 +119,7 @@
                 -->
                 <a href="javascript:void(0);" class="bars"></a>
                 
-                <a class="navbar-brand" href="javascript:void(0);">บ้านเอื้ออาทรบางบ่อ 3 สาครเคเบิล</a>
+                <a class="navbar-brand" href="javascript:void(0);">บ้านเอื้ออาทร พรพระร่วงประสิทธิ</a>
             </div>
             
             <!--
@@ -341,7 +341,7 @@
             <!-- User Info -->
             <div class="user-info">
                <!-- <div class="image">
-                    <img src="https://boo3.sakorncable.com/assets/images/user.png" width="48" height="48" alt="User" />
+                    <img src="https://praruang.sakorncable.com/assets/images/user.png" width="48" height="48" alt="User" />
                 </div> -->
                 <div class="info-container">
                      
@@ -383,12 +383,12 @@
                     <li class="<?php echo $menu[0]; ?>" >
                         <a href="javascript:void(0);">
                             <i class="material-icons">home</i>
-                            <span>บ้านเอื้ออาทรบางบ่อ 3 สาครเคเบิล</span>
+                            <span>บ้านเอื้ออาทร พรพระร่วงประสิทธิ</span>
                         </a>
                     </li>
 
                     <li class="<?php echo $menu[1]; ?>" >
-                        <a href="https://boo3.sakorncable.com/index.php/management">
+                        <a href="https://praruang.sakorncable.com/index.php/management">
                             <i class="material-icons">home</i>
                             <span>ออกจากระบบ</span>
                         </a>
@@ -399,13 +399,13 @@
 
                     <!--
                     <li>
-                        <a href="https://boo3.sakorncable.com/assets/pages/typography.html">
+                        <a href="https://praruang.sakorncable.com/assets/pages/typography.html">
                             <i class="material-icons">text_fields</i>
                             <span>Typography</span>
                         </a>
                     </li>
                     <li>
-                        <a href="https://boo3.sakorncable.com/assets/pages/helper-classes.html">
+                        <a href="https://praruang.sakorncable.com/assets/pages/helper-classes.html">
                             <i class="material-icons">layers</i>
                             <span>Helper Classes</span>
                         </a>
@@ -422,13 +422,13 @@
                                 </a>
                                 <ul class="ml-menu">
                                     <li>
-                                        <a href="https://boo3.sakorncable.com/assets/pages/widgets/cards/basic.html">Basic</a>
+                                        <a href="https://praruang.sakorncable.com/assets/pages/widgets/cards/basic.html">Basic</a>
                                     </li>
                                     <li>
-                                        <a href="https://boo3.sakorncable.com/assets/pages/widgets/cards/colored.html">Colored</a>
+                                        <a href="https://praruang.sakorncable.com/assets/pages/widgets/cards/colored.html">Colored</a>
                                     </li>
                                     <li>
-                                        <a href="https://boo3.sakorncable.com/assets/pages/widgets/cards/no-header.html">No Header</a>
+                                        <a href="https://praruang.sakorncable.com/assets/pages/widgets/cards/no-header.html">No Header</a>
                                     </li>
                                 </ul>
                             </li>
@@ -438,19 +438,19 @@
                                 </a>
                                 <ul class="ml-menu">
                                     <li>
-                                        <a href="https://boo3.sakorncable.com/assets/pages/widgets/infobox/infobox-1.html">Infobox-1</a>
+                                        <a href="https://praruang.sakorncable.com/assets/pages/widgets/infobox/infobox-1.html">Infobox-1</a>
                                     </li>
                                     <li>
-                                        <a href="https://boo3.sakorncable.com/assets/pages/widgets/infobox/infobox-2.html">Infobox-2</a>
+                                        <a href="https://praruang.sakorncable.com/assets/pages/widgets/infobox/infobox-2.html">Infobox-2</a>
                                     </li>
                                     <li>
-                                        <a href="https://boo3.sakorncable.com/assets/pages/widgets/infobox/infobox-3.html">Infobox-3</a>
+                                        <a href="https://praruang.sakorncable.com/assets/pages/widgets/infobox/infobox-3.html">Infobox-3</a>
                                     </li>
                                     <li>
-                                        <a href="https://boo3.sakorncable.com/assets/pages/widgets/infobox/infobox-4.html">Infobox-4</a>
+                                        <a href="https://praruang.sakorncable.com/assets/pages/widgets/infobox/infobox-4.html">Infobox-4</a>
                                     </li>
                                     <li>
-                                        <a href="https://boo3.sakorncable.com/assets/pages/widgets/infobox/infobox-5.html">Infobox-5</a>
+                                        <a href="https://praruang.sakorncable.com/assets/pages/widgets/infobox/infobox-5.html">Infobox-5</a>
                                     </li>
                                 </ul>
                             </li>
@@ -463,74 +463,74 @@
                         </a>
                         <ul class="ml-menu">
                             <li>
-                                <a href="https://boo3.sakorncable.com/assets/pages/ui/alerts.html">Alerts</a>
+                                <a href="https://praruang.sakorncable.com/assets/pages/ui/alerts.html">Alerts</a>
                             </li>
                             <li>
-                                <a href="https://boo3.sakorncable.com/assets/pages/ui/animations.html">Animations</a>
+                                <a href="https://praruang.sakorncable.com/assets/pages/ui/animations.html">Animations</a>
                             </li>
                             <li>
-                                <a href="https://boo3.sakorncable.com/assets/pages/ui/badges.html">Badges</a>
+                                <a href="https://praruang.sakorncable.com/assets/pages/ui/badges.html">Badges</a>
                             </li>
 
                             <li>
-                                <a href="https://boo3.sakorncable.com/assets/pages/ui/breadcrumbs.html">Breadcrumbs</a>
+                                <a href="https://praruang.sakorncable.com/assets/pages/ui/breadcrumbs.html">Breadcrumbs</a>
                             </li>
                             <li>
-                                <a href="https://boo3.sakorncable.com/assets/pages/ui/buttons.html">Buttons</a>
+                                <a href="https://praruang.sakorncable.com/assets/pages/ui/buttons.html">Buttons</a>
                             </li>
                             <li>
-                                <a href="https://boo3.sakorncable.com/assets/pages/ui/collapse.html">Collapse</a>
+                                <a href="https://praruang.sakorncable.com/assets/pages/ui/collapse.html">Collapse</a>
                             </li>
                             <li>
-                                <a href="https://boo3.sakorncable.com/assets/pages/ui/colors.html">Colors</a>
+                                <a href="https://praruang.sakorncable.com/assets/pages/ui/colors.html">Colors</a>
                             </li>
                             <li>
-                                <a href="https://boo3.sakorncable.com/assets/pages/ui/dialogs.html">Dialogs</a>
+                                <a href="https://praruang.sakorncable.com/assets/pages/ui/dialogs.html">Dialogs</a>
                             </li>
                             <li>
-                                <a href="https://boo3.sakorncable.com/assets/pages/ui/icons.html">Icons</a>
+                                <a href="https://praruang.sakorncable.com/assets/pages/ui/icons.html">Icons</a>
                             </li>
                             <li>
-                                <a href="https://boo3.sakorncable.com/assets/pages/ui/labels.html">Labels</a>
+                                <a href="https://praruang.sakorncable.com/assets/pages/ui/labels.html">Labels</a>
                             </li>
                             <li>
-                                <a href="https://boo3.sakorncable.com/assets/pages/ui/list-group.html">List Group</a>
+                                <a href="https://praruang.sakorncable.com/assets/pages/ui/list-group.html">List Group</a>
                             </li>
                             <li>
-                                <a href="https://boo3.sakorncable.com/assets/pages/ui/media-object.html">Media Object</a>
+                                <a href="https://praruang.sakorncable.com/assets/pages/ui/media-object.html">Media Object</a>
                             </li>
                             <li>
-                                <a href="https://boo3.sakorncable.com/assets/pages/ui/modals.html">Modals</a>
+                                <a href="https://praruang.sakorncable.com/assets/pages/ui/modals.html">Modals</a>
                             </li>
                             <li>
-                                <a href="https://boo3.sakorncable.com/assets/pages/ui/notifications.html">Notifications</a>
+                                <a href="https://praruang.sakorncable.com/assets/pages/ui/notifications.html">Notifications</a>
                             </li>
                             <li>
-                                <a href="https://boo3.sakorncable.com/assets/pages/ui/pagination.html">Pagination</a>
+                                <a href="https://praruang.sakorncable.com/assets/pages/ui/pagination.html">Pagination</a>
                             </li>
                             <li>
-                                <a href="https://boo3.sakorncable.com/assets/pages/ui/preloaders.html">Preloaders</a>
+                                <a href="https://praruang.sakorncable.com/assets/pages/ui/preloaders.html">Preloaders</a>
                             </li>
                             <li>
-                                <a href="https://boo3.sakorncable.com/assets/pages/ui/progressbars.html">Progress Bars</a>
+                                <a href="https://praruang.sakorncable.com/assets/pages/ui/progressbars.html">Progress Bars</a>
                             </li>
                             <li>
-                                <a href="https://boo3.sakorncable.com/assets/pages/ui/range-sliders.html">Range Sliders</a>
+                                <a href="https://praruang.sakorncable.com/assets/pages/ui/range-sliders.html">Range Sliders</a>
                             </li>
                             <li>
-                                <a href="https://boo3.sakorncable.com/assets/pages/ui/sortable-nestable.html">Sortable & Nestable</a>
+                                <a href="https://praruang.sakorncable.com/assets/pages/ui/sortable-nestable.html">Sortable & Nestable</a>
                             </li>
                             <li>
-                                <a href="https://boo3.sakorncable.com/assets/pages/ui/tabs.html">Tabs</a>
+                                <a href="https://praruang.sakorncable.com/assets/pages/ui/tabs.html">Tabs</a>
                             </li>
                             <li>
-                                <a href="https://boo3.sakorncable.com/assets/pages/ui/thumbnails.html">Thumbnails</a>
+                                <a href="https://praruang.sakorncable.com/assets/pages/ui/thumbnails.html">Thumbnails</a>
                             </li>
                             <li>
-                                <a href="https://boo3.sakorncable.com/assets/pages/ui/tooltips-popovers.html">Tooltips & Popovers</a>
+                                <a href="https://praruang.sakorncable.com/assets/pages/ui/tooltips-popovers.html">Tooltips & Popovers</a>
                             </li>
                             <li>
-                                <a href="https://boo3.sakorncable.com/assets/pages/ui/waves.html">Waves</a>
+                                <a href="https://praruang.sakorncable.com/assets/pages/ui/waves.html">Waves</a>
                             </li>
                         </ul>
                     </li>
@@ -541,22 +541,22 @@
                         </a>
                         <ul class="ml-menu">
                             <li>
-                                <a href="https://boo3.sakorncable.com/assets/pages/forms/basic-form-elements.html">Basic Form Elements</a>
+                                <a href="https://praruang.sakorncable.com/assets/pages/forms/basic-form-elements.html">Basic Form Elements</a>
                             </li>
                             <li>
-                                <a href="https://boo3.sakorncable.com/assets/pages/forms/advanced-form-elements.html">Advanced Form Elements</a>
+                                <a href="https://praruang.sakorncable.com/assets/pages/forms/advanced-form-elements.html">Advanced Form Elements</a>
                             </li>
                             <li>
-                                <a href="https://boo3.sakorncable.com/assets/pages/forms/form-examples.html">Form Examples</a>
+                                <a href="https://praruang.sakorncable.com/assets/pages/forms/form-examples.html">Form Examples</a>
                             </li>
                             <li>
-                                <a href="https://boo3.sakorncable.com/assets/pages/forms/form-validation.html">Form Validation</a>
+                                <a href="https://praruang.sakorncable.com/assets/pages/forms/form-validation.html">Form Validation</a>
                             </li>
                             <li>
-                                <a href="https://boo3.sakorncable.com/assets/pages/forms/form-wizard.html">Form Wizard</a>
+                                <a href="https://praruang.sakorncable.com/assets/pages/forms/form-wizard.html">Form Wizard</a>
                             </li>
                             <li>
-                                <a href="https://boo3.sakorncable.com/assets/pages/forms/editors.html">Editors</a>
+                                <a href="https://praruang.sakorncable.com/assets/pages/forms/editors.html">Editors</a>
                             </li>
                         </ul>
                     </li>
@@ -567,13 +567,13 @@
                         </a>
                         <ul class="ml-menu">
                             <li>
-                                <a href="https://boo3.sakorncable.com/assets/pages/tables/normal-tables.html">Normal Tables</a>
+                                <a href="https://praruang.sakorncable.com/assets/pages/tables/normal-tables.html">Normal Tables</a>
                             </li>
                             <li>
-                                <a href="https://boo3.sakorncable.com/assets/pages/tables/jquery-datatable.html">Jquery Datatables</a>
+                                <a href="https://praruang.sakorncable.com/assets/pages/tables/jquery-datatable.html">Jquery Datatables</a>
                             </li>
                             <li>
-                                <a href="https://boo3.sakorncable.com/assets/pages/tables/editable-table.html">Editable Tables</a>
+                                <a href="https://praruang.sakorncable.com/assets/pages/tables/editable-table.html">Editable Tables</a>
                             </li>
                         </ul>
                     </li>
@@ -584,10 +584,10 @@
                         </a>
                         <ul class="ml-menu">
                             <li>
-                                <a href="https://boo3.sakorncable.com/assets/pages/medias/image-gallery.html">Image Gallery</a>
+                                <a href="https://praruang.sakorncable.com/assets/pages/medias/image-gallery.html">Image Gallery</a>
                             </li>
                             <li>
-                                <a href="https://boo3.sakorncable.com/assets/pages/medias/carousel.html">Carousel</a>
+                                <a href="https://praruang.sakorncable.com/assets/pages/medias/carousel.html">Carousel</a>
                             </li>
                         </ul>
                     </li>
@@ -598,19 +598,19 @@
                         </a>
                         <ul class="ml-menu">
                             <li>
-                                <a href="https://boo3.sakorncable.com/assets/pages/charts/morris.html">Morris</a>
+                                <a href="https://praruang.sakorncable.com/assets/pages/charts/morris.html">Morris</a>
                             </li>
                             <li>
-                                <a href="https://boo3.sakorncable.com/assets/pages/charts/flot.html">Flot</a>
+                                <a href="https://praruang.sakorncable.com/assets/pages/charts/flot.html">Flot</a>
                             </li>
                             <li>
-                                <a href="https://boo3.sakorncable.com/assets/pages/charts/chartjs.html">ChartJS</a>
+                                <a href="https://praruang.sakorncable.com/assets/pages/charts/chartjs.html">ChartJS</a>
                             </li>
                             <li>
-                                <a href="https://boo3.sakorncable.com/assets/pages/charts/sparkline.html">Sparkline</a>
+                                <a href="https://praruang.sakorncable.com/assets/pages/charts/sparkline.html">Sparkline</a>
                             </li>
                             <li>
-                                <a href="https://boo3.sakorncable.com/assets/pages/charts/jquery-knob.html">Jquery Knob</a>
+                                <a href="https://praruang.sakorncable.com/assets/pages/charts/jquery-knob.html">Jquery Knob</a>
                             </li>
                         </ul>
                     </li> -->
@@ -622,25 +622,25 @@
                         </a>
                         <ul class="ml-menu">
                             <li>
-                                <a href="https://boo3.sakorncable.com/assets/pages/examples/profile.html">Profile</a>
+                                <a href="https://praruang.sakorncable.com/assets/pages/examples/profile.html">Profile</a>
                             </li>
                             <li>
-                                <a href="https://boo3.sakorncable.com/assets/pages/examples/sign-in.html">Sign In</a>
+                                <a href="https://praruang.sakorncable.com/assets/pages/examples/sign-in.html">Sign In</a>
                             </li>
                             <li>
-                                <a href="https://boo3.sakorncable.com/assets/pages/examples/sign-up.html">Sign Up</a>
+                                <a href="https://praruang.sakorncable.com/assets/pages/examples/sign-up.html">Sign Up</a>
                             </li>
                             <li>
-                                <a href="https://boo3.sakorncable.com/assets/pages/examples/forgot-password.html">Forgot Password</a>
+                                <a href="https://praruang.sakorncable.com/assets/pages/examples/forgot-password.html">Forgot Password</a>
                             </li>
                             <li class="active">
-                                <a href="https://boo3.sakorncable.com/assets/pages/examples/blank.html">Blank Page</a>
+                                <a href="https://praruang.sakorncable.com/assets/pages/examples/blank.html">Blank Page</a>
                             </li>
                             <li>
-                                <a href="https://boo3.sakorncable.com/assets/pages/examples/404.html">404 - Not Found</a>
+                                <a href="https://praruang.sakorncable.com/assets/pages/examples/404.html">404 - Not Found</a>
                             </li>
                             <li>
-                                <a href="https://boo3.sakorncable.com/assets/pages/examples/500.html">500 - Server Error</a>
+                                <a href="https://praruang.sakorncable.com/assets/pages/examples/500.html">500 - Server Error</a>
                             </li>
                         </ul>
                     </li>
@@ -651,13 +651,13 @@
                         </a>
                         <ul class="ml-menu">
                             <li>
-                                <a href="https://boo3.sakorncable.com/assets/pages/maps/google.html">Google Map</a>
+                                <a href="https://praruang.sakorncable.com/assets/pages/maps/google.html">Google Map</a>
                             </li>
                             <li>
-                                <a href="https://boo3.sakorncable.com/assets/pages/maps/yandex.html">YandexMap</a>
+                                <a href="https://praruang.sakorncable.com/assets/pages/maps/yandex.html">YandexMap</a>
                             </li>
                             <li>
-                                <a href="https://boo3.sakorncable.com/assets/pages/maps/jvectormap.html">jVectorMap</a>
+                                <a href="https://praruang.sakorncable.com/assets/pages/maps/jvectormap.html">jVectorMap</a>
                             </li>
                         </ul>
                     </li>
@@ -705,7 +705,7 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="https://boo3.sakorncable.com/assets/changelogs.html">
+                        <a href="https://praruang.sakorncable.com/assets/changelogs.html">
                             <i class="material-icons">update</i>
                             <span>Changelogs</span>
                         </a>
