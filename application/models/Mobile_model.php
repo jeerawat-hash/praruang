@@ -71,7 +71,7 @@ class Mobile_model extends CI_Model
      
      $checkKey = 1;
 
-     if ($Secrect == "Sakorn@") {
+     if ($Secrect == "PR@") {
        $checkKey = 0;
      }
 
