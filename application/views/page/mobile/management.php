@@ -445,12 +445,12 @@
 
 
      
-        <script src="https://boo3.sakorncable.com/assets/pages/manage/js/Manage_home.js"></script>
-        <script src="https://boo3.sakorncable.com/assets/pages/manage/js/Manage_SyncServicesCost.js"></script>
-        <script src="https://boo3.sakorncable.com/assets/pages/manage/js/Manage_SyncReceiveCost.js"></script>
-        <script src="https://boo3.sakorncable.com/assets/pages/manage/js/Manage_SyncCustomerName.js"></script>
-        <script src="https://boo3.sakorncable.com/assets/pages/manage/js/Manage_SyncCarInfo.js"></script>
-        <script src="https://boo3.sakorncable.com/assets/pages/manage/js/Manage_CCTV.js"></script>
+        <script src="https://praruang.sakorncable.com/assets/pages/manage/js/Manage_home.js?v=1"></script>
+        <script src="https://praruang.sakorncable.com/assets/pages/manage/js/Manage_SyncServicesCost.js?v=1"></script>
+        <script src="https://praruang.sakorncable.com/assets/pages/manage/js/Manage_SyncReceiveCost.js?v=1"></script>
+        <script src="https://praruang.sakorncable.com/assets/pages/manage/js/Manage_SyncCustomerName.js?v=1"></script>
+        <script src="https://praruang.sakorncable.com/assets/pages/manage/js/Manage_SyncCarInfo.js?v=1"></script>
+        <script src="https://praruang.sakorncable.com/assets/pages/manage/js/Manage_CCTV.js?v=1"></script>
        
 <script type="text/javascript">
         
