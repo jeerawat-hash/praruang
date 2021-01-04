@@ -84,7 +84,7 @@ class Management extends CI_Controller
 			$ReportTotal = $this->Mobile_model->ReportCustomerTotal();
 			$ReportTotalDetail = $this->Mobile_model->ReportCustomerTotalDetail();
 
-			$message1 = "\nสรุปยอดคงค้างในระบบ\n".number_format($ReportTotal[0]->AMOUNT,2)." บาท\n"."รายละเอียด";
+			$message1 = "\nสรุปยอดคงค้างในระบบ\n".number_format($ReportTotal[0]->AMOUNT,2)." บาท\n";
 
 			notify($message1,"h9vTwQuSAany6zn5pVFZg0SZ5noGk6GuuB883p79srr");
 
