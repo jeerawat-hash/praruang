@@ -31,7 +31,7 @@ class Mobile_app extends CI_Controller
 	{
 
 
-			$Customer = $this->Mobile_model->CustomerAuth($_POST["CustomerID"]);
+			$Customer = $this->Mobile_model->CustomerAuth(str_replace("/", "-", $_POST["CustomerID"]));
 
 			 notify("อาคาร ".$_POST["CustomerID"]." ".$Customer[0]->CustomerINFO." ".$_POST["SecurityComment"],"oQozIXdKU8O8OEzQ6O20IEveDGqW6JwShsZKLSPgCyS");
 
@@ -45,9 +45,10 @@ class Mobile_app extends CI_Controller
 	public function login()
 	{
 
+		
 
-		//print_r($_POST["CustomerID"]);
-		echo json_encode( $this->Mobile_model->CustomerAuth($_POST["CustomerID"]) );
+		//print_r(str_replace("/", "-", $_POST["CustomerID"]));
+		echo json_encode( $this->Mobile_model->CustomerAuth(str_replace("/", "-", $_POST["CustomerID"])) );
 		// ทดสอบ ไลน์ส่วนตัว
 		/*
 			 shell_exec("  
@@ -63,14 +64,14 @@ class Mobile_app extends CI_Controller
 	{
 
 		//print_r($_POST);
-		echo json_encode( $this->Mobile_model->getDataBlanace($_POST["CustomerID"]) );
+		echo json_encode( $this->Mobile_model->getDataBlanace(str_replace("/", "-", $_POST["CustomerID"])) );
 
 
 	}
 	public function getDataBlanaceDetail()
 	{
 
-		echo json_encode( $this->Mobile_model->getDataBlanaceDetail($_POST["CustomerID"]) );
+		echo json_encode( $this->Mobile_model->getDataBlanaceDetail(str_replace("/", "-", $_POST["CustomerID"])) );
 		//print_r($_POST);
 		
 	}
@@ -189,7 +190,7 @@ class Mobile_app extends CI_Controller
 			move_uploaded_file($_FILES["Slipfile"]["tmp_name"], "/home/admin/web/praruang.sakorncable.com/public_html/upload/temp/".$file.".jpg");
  
 
-			$Member = $this->Mobile_model->getDataBlanace($_POST["CustomerID"]);				
+			$Member = $this->Mobile_model->getDataBlanace(str_replace("/", "-", $_POST["CustomerID"]));				
 
 	        $UserMessage = $Member[0]->CustomerName." ทำการส่งภาพ";
 
