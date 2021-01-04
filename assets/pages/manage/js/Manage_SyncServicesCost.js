@@ -44,8 +44,10 @@ $(function(){
                 
                     if (data == 1) {
 
-                    alert("บันทึกข้อมูลสำเร็จ....");
 
+                    //alert("บันทึกข้อมูลสำเร็จ....");
+                    swal("สำเร็จ","บันทึกข้อมูลสำเร็จ", "success");
+                    
                     $("#DataSyncServicesCostModal").modal("hide");
 
                     $("#DataSyncServicesCostModal").find("#SendData").show();
@@ -54,7 +56,8 @@ $(function(){
                     }else
                     if (data == 2){
 
-                        alert("ผิดพลาดกรุณาลองใหม่ภายหลัง...");
+                        swal("ผิดพลาด","ผิดพลาดกรุณาลองใหม่ภายหลัง", "error");
+                        //alert("ผิดพลาดกรุณาลองใหม่ภายหลัง...");
                         $("#DataSyncServicesCostModal").find("#SendData").show();
                         $("#DataSyncServicesCostModal").find("#PreloadSendData").hide();
 
@@ -64,7 +67,8 @@ $(function(){
                 },
                 error : function(){
 
-                        alert("404 Not Found");
+                        swal("ผิดพลาด","ผิดพลาดกรุณาลองใหม่ภายหลัง", "error");
+                        //alert("404 Not Found");
                         $("#DataSyncServicesCostModal").find("#SendData").show();
                         $("#DataSyncServicesCostModal").find("#PreloadSendData").hide();
 

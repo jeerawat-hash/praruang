@@ -14,19 +14,22 @@ $(function(){
 
 		if (telephone == "") {
 
-			alert("กรุณากรอกรหัสความปลอดภัยให้ถูกต้อง");
+    		swal("ผิดพลาด","กรุณากรอกรหัสความปลอดภัยให้ถูกต้อง", "error");
+			//alert("กรุณากรอกรหัสความปลอดภัยให้ถูกต้อง");
 			return false;
 
 		}
 		if (telephone == "0") {
 
-			alert("กรุณากรอกรหัสความปลอดภัยให้ถูกต้อง");
+    		swal("ผิดพลาด","กรุณากรอกรหัสความปลอดภัยให้ถูกต้อง", "error");
+			//alert("กรุณากรอกรหัสความปลอดภัยให้ถูกต้อง");
 			return false;
 
 		}
 		if (telephone.trim() == "") {
 
-			alert("กรุณากรอกรหัสความปลอดภัยให้ถูกต้อง");
+    		swal("ผิดพลาด","กรุณากรอกรหัสความปลอดภัยให้ถูกต้อง", "error");
+			//alert("กรุณากรอกรหัสความปลอดภัยให้ถูกต้อง");
 			return false;
 
 		}
@@ -55,7 +58,8 @@ $(function(){
 					$("#DataSecrectkeyModal").find("#GetData").show();
 
 				}else{
-					alert("รหัสผิดพลาด..");
+    				swal("ผิดพลาด","รหัสผิดพลาด...", "error");
+					//alert("รหัสผิดพลาด..");
 					$("#DataSecrectkeyModal").find("#GetData").show();
 					$("#DataSecrectkeyModal").find("#PreloadGetData").hide();
 
