@@ -165,12 +165,12 @@
 
 
 
-        <div class="block-header">
+        <div class="block-header P5">
                 <h2>สาครเคเบิล</h2>
             </div>
  
             
-            <div class="row clearfix">
+            <div class="row clearfix P5">
               <!-- Menu -->    
  
                 <div id="PreviewTV" class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
@@ -765,7 +765,9 @@ function CopyFunction() {
   copyText.select();
   copyText.setSelectionRange(0, 99999)
   document.execCommand("copy");
-  alert("คัดลอกหมายเลขบัญชีสำเร็จ....");
+  //alert("คัดลอกหมายเลขบัญชีสำเร็จ....");
+    swal("สำเร็จ","คัดลอกหมายเลขบัญชีสำเร็จ...", "info");
+
 }
 
 
