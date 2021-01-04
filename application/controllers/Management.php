@@ -42,9 +42,9 @@ class Management extends CI_Controller
 		
 		if ($_FILES["ServicesCost"]["type"] == "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet") {
 
-			shell_exec("rm /home/admin/web/boo3.sakorncable.com/public_html/upload/temp/".$_FILES["ServicesCost"]["name"]);
+			shell_exec("rm /home/admin/web/praruang.sakorncable.com/public_html/upload/temp/".$_FILES["ServicesCost"]["name"]);
 			
-			move_uploaded_file($_FILES["ServicesCost"]["tmp_name"], "/home/admin/web/boo3.sakorncable.com/public_html/upload/temp/".$_FILES["ServicesCost"]["name"]);
+			move_uploaded_file($_FILES["ServicesCost"]["tmp_name"], "/home/admin/web/praruang.sakorncable.com/public_html/upload/temp/".$_FILES["ServicesCost"]["name"]);
 
 
 
@@ -118,9 +118,9 @@ class Management extends CI_Controller
 
 		if ($_FILES["ReceiveCost"]["type"] == "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet") {
 
-			shell_exec("rm /home/admin/web/boo3.sakorncable.com/public_html/upload/temp/".$_FILES["ReceiveCost"]["name"]);
+			shell_exec("rm /home/admin/web/praruang.sakorncable.com/public_html/upload/temp/".$_FILES["ReceiveCost"]["name"]);
 			
-			move_uploaded_file($_FILES["ReceiveCost"]["tmp_name"], "/home/admin/web/boo3.sakorncable.com/public_html/upload/temp/".$_FILES["ReceiveCost"]["name"]);
+			move_uploaded_file($_FILES["ReceiveCost"]["tmp_name"], "/home/admin/web/praruang.sakorncable.com/public_html/upload/temp/".$_FILES["ReceiveCost"]["name"]);
 
  			$result = $this->Mobile_model->createDataFromXlsx($_FILES["ReceiveCost"]["name"]);
 
@@ -211,9 +211,9 @@ class Management extends CI_Controller
 
 		if ($_FILES["CustomerName"]["type"] == "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet") {
 
-			shell_exec("rm /home/admin/web/boo3.sakorncable.com/public_html/upload/temp/".$_FILES["CustomerName"]["name"]);
+			shell_exec("rm /home/admin/web/praruang.sakorncable.com/public_html/upload/temp/".$_FILES["CustomerName"]["name"]);
 			
-			move_uploaded_file($_FILES["CustomerName"]["tmp_name"], "/home/admin/web/boo3.sakorncable.com/public_html/upload/temp/".$_FILES["CustomerName"]["name"]);
+			move_uploaded_file($_FILES["CustomerName"]["tmp_name"], "/home/admin/web/praruang.sakorncable.com/public_html/upload/temp/".$_FILES["CustomerName"]["name"]);
  
 
 			$result = $this->Mobile_model->createDataFromXlsx($_FILES["CustomerName"]["name"]);
@@ -252,9 +252,9 @@ class Management extends CI_Controller
 
 		if ($_FILES["CarInfofile"]["type"] == "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet") {
 
-			shell_exec("rm /home/admin/web/boo3.sakorncable.com/public_html/upload/temp/".$_FILES["CarInfofile"]["name"]);
+			shell_exec("rm /home/admin/web/praruang.sakorncable.com/public_html/upload/temp/".$_FILES["CarInfofile"]["name"]);
 			
-			move_uploaded_file($_FILES["CarInfofile"]["tmp_name"], "/home/admin/web/boo3.sakorncable.com/public_html/upload/temp/".$_FILES["CarInfofile"]["name"]);
+			move_uploaded_file($_FILES["CarInfofile"]["tmp_name"], "/home/admin/web/praruang.sakorncable.com/public_html/upload/temp/".$_FILES["CarInfofile"]["name"]);
 
  			 
 			$result = $this->Mobile_model->createDataFromXlsx($_FILES["CarInfofile"]["name"]);
