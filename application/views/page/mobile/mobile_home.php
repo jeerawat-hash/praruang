@@ -320,6 +320,34 @@
                                         <button id="CopyBankCode" onclick="CopyFunction()" class="btn btn-lg btn-info waves-effect" >กดที่นี่เพื่อคัดลอกหมายเลขบัญชี</button>
                                         
                                     </div>
+
+                                    <div class="form-group">
+                                          
+                                        <label>-</label> <br>
+                                       
+
+                                <label><font color="red">เลขที่ </font>: </label><input type="text" readonly style="border: none;" value="-" name="BankCode" id="BankCode">
+                                             
+                                         <br>
+                                        <label>ชื่อบัญชี : - </label>
+                                        <br>
+                                        <button id="CopyBankCode" onclick="CopyFunction()" class="btn btn-lg btn-info waves-effect" >กดที่นี่เพื่อคัดลอกหมายเลขบัญชี</button>
+                                        
+                                    </div>
+
+                                    <div class="form-group">
+                                          
+                                        <label>-</label> <br>
+                                       
+
+                                <label><font color="red">เลขที่ </font>: </label><input type="text" readonly style="border: none;" value="-" name="BankCode" id="BankCode">
+                                             
+                                         <br>
+                                        <label>ชื่อบัญชี : - </label>
+                                        <br>
+                                        <button id="CopyBankCode" onclick="CopyFunction()" class="btn btn-lg btn-info waves-effect" >กดที่นี่เพื่อคัดลอกหมายเลขบัญชี</button>
+                                        
+                                    </div>
                                 </div>
 
 
