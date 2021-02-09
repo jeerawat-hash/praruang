@@ -323,7 +323,7 @@
 
                                     <div class="form-group">
                                           
-                                        <label>บัญชีชำระค่าน่้ำ</label> <br>
+                                        <label>บัญชีชำระค่าน้ำ</label> <br>
                                        
 
                                 <label><font color="red">กสิกรไทย เลขที่ </font>: 086-1-36456-9</label><input type="text" readonly style="border: none;" value="0861364569" name="BankCode2" id="BankCode2">
