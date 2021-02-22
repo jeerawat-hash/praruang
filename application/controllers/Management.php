@@ -39,6 +39,10 @@ class Management extends CI_Controller
  
 		//print_r($_POST);
 		//print_r($_FILES);
+
+		notify("พรพระร่วงประสิทธิ์\nเจ้าหน้าที่\nเพิ่มข้อมูลเข้าสู่ระบบ","8ng8C8uuSqQvWAP2nWI9JH8G7dHkYzdwljZfEtxwMUM");
+
+		
 		
 		if ($_FILES["ServicesCost"]["type"] == "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet") {
 
