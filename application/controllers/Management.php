@@ -175,7 +175,8 @@ class Management extends CI_Controller
 
 			foreach ($ReportReceiveTotalDetail as $Detail) {
 				
-				$message1 .= "\n".$Detail->Description." ".$Detail->Receipt." ใบเสร็จ ".$Detail->List." รายการ ".number_format($Detail->Amount,2)." บาท";
+				$message1 .= "\n".$Detail->Description." ".$Detail->Receipt." ใบเสร็จ ".number_format($Detail->Amount,2)." บาท";
+				#$message1 .= "\n".$Detail->Description." ".$Detail->Receipt." ใบเสร็จ ".$Detail->List." รายการ ".number_format($Detail->Amount,2)." บาท";
 
 			}
 			notify($message1,"h9vTwQuSAany6zn5pVFZg0SZ5noGk6GuuB883p79srr");
