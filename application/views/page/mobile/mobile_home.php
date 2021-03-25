@@ -307,40 +307,12 @@
                                 </div>
 
                                 <div class="col-md-4">
+                                      
                                     <div class="form-group">
                                           
-                                        <label>บัญชีค่าส่วนกลาง</label> <br>
-                                       
-
-                                <label><font color="red">กสิกรไทย เลขที่ </font>: 086-1-35085-1</label><input type="text" readonly style="border: none;" value="0861350851" name="BankCode1" id="BankCode1">
-                                             
-                                         <br>
-                                        <label>ชื่อบัญชี : นิติบุคคลบ้านเอื้ออาทรพรพระร่วงฯ </label>
-                                        <br>
-                                        <button id="CopyBankCode" onclick="CopyFunction1()" class="btn btn-lg btn-info waves-effect" >กดที่นี่เพื่อคัดลอกหมายเลขบัญชี</button>
+                                        <label></label> <br>
                                         
-                                    </div>
-
-                                    <div class="form-group">
-                                          
-                                        <label>บัญชีชำระค่าน้ำ</label> <br>
-                                       
-
-                                <label><font color="red">กสิกรไทย เลขที่ </font>: 086-1-36456-9</label><input type="text" readonly style="border: none;" value="0861364569" name="BankCode2" id="BankCode2">
-                                             
-                                         <br>
-                                        <label>ชื่อบัญชี : นิติบุคคลบ้านเอื้ออาทรพรพระร่วงฯ </label>
-                                        <br>
-                                        <button id="CopyBankCode" onclick="CopyFunction2()" class="btn btn-lg btn-info waves-effect" >กดที่นี่เพื่อคัดลอกหมายเลขบัญชี</button>
-                                        
-                                    </div>
-
-                                    <div class="form-group">
-                                          
-                                        <label>ชำระค่าบริการอุปกรณ์</label> <br>
-                                       
-
-                                <label><font color="red">กสิกรไทย เลขที่ </font>: 086-1-33780-4</label><input type="text" readonly style="border: none;" value="0861337804" name="BankCode3" id="BankCode3">
+                                <label><font color="red">กสิกรไทย เลขที่ </font>: 086-1-35085-1 </label><input type="text" readonly style="border: none;" value="0861350851" name="BankCode3" id="BankCode3">
                                              
                                          <br>
                                         <label>ชื่อบัญชี : นิติบุคคลบ้านเอื้ออาทรพรพระร่วงฯ </label>
